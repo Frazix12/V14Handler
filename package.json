@@ -1,0 +1,22 @@
+{
+  "name": "V14Handeler",
+  "version": "1.0.0",
+  "description": "a discord command and event handler based on discord.js v14",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Frazix12",
+  "dependencies": {
+    "@discordjs/rest": "^0.4.0-dev.1648339702-520f471",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.30.0",
+    "discord.js": "^14.0.0-dev.1648339713-520f471",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "node": "^17.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
