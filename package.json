@@ -1,7 +1,7 @@
 {
   "name": "V14Handeler",
   "version": "1.0.0",
-  "description": "a discord command and event handler based on discord.js v14",
+  "description": "A Discord Command Handler Based On Discord.js V14",
   "main": "index.js",
   "scripts": {
     "test": "nodemon src/index.js",
