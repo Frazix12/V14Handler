@@ -1,7 +1,13 @@
 ![V14 Handeler](https://cdn.discordapp.com/attachments/896994497135775757/960235994760745030/V14_Handeler.png)
  
 <br>
- 
+<br>
+
+## If Using VSCode I Added Snippets So Just Type `!djs` and ait will show all commands
+
+![Snippets Preview](https://cdn.discordapp.com/attachments/896994497135775757/960486366729355294/unknown.png?size=4096)
+<br>
+
 ### **Normal SlashCommand**
 ```js
 const {

@@ -1,0 +1,69 @@
+{
+	"!djs: Normal SlashCommand": {
+		"prefix": "!djs:Normal",
+		"body": [
+			"const { Client, CommandInteraction, ApplicationCommandType, } = require('discord.js');\r",
+			"\r",
+			"module.exports = {\r",
+			"name: '',",
+			"description: ``,",
+			"userPermissions: [],",
+			"botPermissions: [],",
+			"category: '',",
+			"cooldown: 10,",
+			"type: ApplicationCommandType.ChatInput,",
+			"    /** \r",
+			"     * @param {Client} client \r",
+			"     * @param {CommandInteraction} interaction \r",
+			"     * @param {String[]} args \r",
+			"     */\r",
+			"    run: async (client, interaction, args) => {\r",
+			"\r",
+			"    },\r",
+			"};"
+		],
+		"description": "[djs]"
+	},
+	"!djs: Message Input SlashCommand": {
+		"prefix": "!djs:Message",
+		"body": [
+			"const { Client, CommandInteraction, ApplicationCommandType, } = require('discord.js');\r",
+			"\r",
+			"module.exports = {\r",
+			"name: '',",
+			"category: '',",
+			"type: ApplicationCommandType.Message,",
+			"    /** \r",
+			"     * @param {Client} client \r",
+			"     * @param {CommandInteraction} interaction \r",
+			"     * @param {String[]} args \r",
+			"     */\r",
+			"    run: async (client, interaction, args) => {\r",
+			"\r",
+			"    },\r",
+			"};"
+		],
+		"description": "[djs]"
+	},
+	"!djs: User Input SlashCommand": {
+		"prefix": "!djs:User",
+		"body": [
+			"const { Client, CommandInteraction, ApplicationCommandType, } = require('discord.js');\r",
+			"\r",
+			"module.exports = {\r",
+			"name: '',",
+			"category: '',",
+			"type: ApplicationCommandType.User,",
+			"    /** \r",
+			"     * @param {Client} client \r",
+			"     * @param {CommandInteraction} interaction \r",
+			"     * @param {String[]} args \r",
+			"     */\r",
+			"    run: async (client, interaction, args) => {\r",
+			"\r",
+			"    },\r",
+			"};"
+		],
+		"description": "[djs]"
+	}
+}
